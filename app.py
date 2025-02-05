@@ -47,7 +47,6 @@ if uploaded_file is not None:
         st.markdown(f"""
         <div style="background-color:#f1f1f1; padding:10px; border-radius:10px;">
         <b>💬 Gemini:</b> {response}
-        </div>
         """, unsafe_allow_html=True)
 else:
     st.info("Upload a food image, and I'll estimate the total calories! 🥗🍕🍔")

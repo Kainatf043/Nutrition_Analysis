@@ -49,4 +49,4 @@ if uploaded_file is not None:
         </div>
         """, unsafe_allow_html=True)
 else:
-    st.info("Please upload an image to analyze calories.")
+    st.info("Upload a food image, and I'll estimate the total calories! 🥗🍕🍔")

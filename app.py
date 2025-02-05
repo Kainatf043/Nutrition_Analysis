@@ -33,7 +33,7 @@ st.sidebar.header("📤 Upload Image")
 uploaded_file = st.sidebar.file_uploader("Choose a food image...", type=["jpg", "jpeg", "png"])
 
 st.title("🍽️ Gemini Health App- 🥗Nutrition Analysis")
-st.write("Upload a food image, and I'll estimate the total calories! 🥗🍕🍔")
+#st.write("Upload a food image, and I'll estimate the total calories! 🥗🍕🍔")
 
 if uploaded_file is not None:
     image = Image.open(uploaded_file)
